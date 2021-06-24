@@ -1,14 +1,20 @@
 import React from 'react';
 import Header from './components/header/index'
 import Project from './components/projects/index'
+import AboutMe from  './components/aboutme/index'
 import Footer from './components/footer/index'
-import projectsJson from './data/projects.json';
+import projectsJson from './data/projects.json'
+import { HashRouter as Router, Route } from "react-router-dom";
 
 function App() {
 
   return (
     <div className="App">
+      <Router>
       <Header/>
+      <Route exact path="/" component={AboutMe}/>
+
+      <Route exact path="/projects" component = {Project}>
       <section className="grid" id="work">
         {projectsJson.map(project => (
           <Project 
@@ -22,7 +28,9 @@ function App() {
           />
           ))}
       </section>
+      </Route>
       <Footer/>
+      </Router>
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -13,10 +14,10 @@ const Header = () => {
             <div className="container-fluid">
                 <div className="container row" id="navbarNavAltMarkup">
                     <div className="navbar-nav text-center col">
-                        <a className="nav-link active text-light max-vw-25" href="">About Me</a>
+                        <Link to = "/"><a className="nav-link active text-light max-vw-25" href="">About Me</a></Link>
                     </div>
                     <div className="navbar-nav text-center col">
-                        <a className="nav-link active text-light max-vw-25" href="">Projects</a>
+                    <Link to = "/projects"><a className="nav-link active text-light max-vw-25" href="">Projects</a></Link>
                     </div>
                 </div>
             </div>
