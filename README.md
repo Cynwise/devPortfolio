@@ -2,6 +2,7 @@
 
 ![ScreenShot](./src/components/assets/demoScreenshot1.png)
 ![ScreenShot](./src/components/assets/demoScreenshot2.png)
+Deployment(https://cynwise.github.io/devPortfolio/#/)
 
 ## Description
 
