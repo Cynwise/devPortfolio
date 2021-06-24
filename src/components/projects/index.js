@@ -7,6 +7,7 @@ function Project(props) {
 
     return(
 
+        // 1 cards for all the porjects
         <div className = "container vw-25 text-center" key = {props.id}>
         <div className ="card">
             <div className ="card-body">

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
 
+    // Header portion on the website with the navbar built in.
     return(
 
         <div className="p-3 text-center bg-dark row-12">

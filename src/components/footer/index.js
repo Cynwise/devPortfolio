@@ -4,6 +4,7 @@ const Footer = () => {
 
     return(
 
+        // Footer section with links to github and other accounts
         <div className="p-1 text-center bg-dark">
             <div className="p-1 text-center bg-dark">
                 <a href = "https://github.com/Cynwise"><button type="button" className="btn btn-light">GitHub</button></a>

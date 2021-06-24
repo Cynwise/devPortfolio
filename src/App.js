@@ -14,6 +14,7 @@ function App() {
       <Header/>
       <Route exact path="/" component={AboutMe}/>
 
+      {/* populate cards with each project in the JSON File */}
       <Route exact path="/projects" component = {Project}>
       <section className="grid" id="work">
         {projectsJson.map(project => (
