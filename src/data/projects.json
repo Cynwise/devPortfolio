@@ -1,0 +1,26 @@
+[
+    {
+        "key": 1,
+        "title": "Events Eats",
+        "deploy": "https://cynwise.github.io/events-eats/",
+        "github": "https://github.com/Cynwise/events-eats",
+        "image": "../components/assets/eventsEats.gif",
+        "description": "This application will allow users to plan a trip by choosing an event they plan to attend. Clicking on that event will display restaurants within a 5 mile radius of that event."
+    },
+    {
+        "key": 2,
+        "title": "Employee Directory",
+        "deploy": "https://apple-martini-679.herokuapp.com/",
+        "github": "https://github.com/Cynwise/employeeDirectory",
+        "image": "../components/assets/employeeDirectory.png",
+        "description": "React application with a dynamic searchable employee directory"
+    },
+    {
+        "key": 3,
+        "title": "Global Lost and Found",
+        "deploy": "https://glacial-fortress-45860.herokuapp.com/",
+        "github": "https://github.com/Cynwise/Lost-Found",
+        "image": "../components/assets/globalLostFound.png",
+        "description": "This webapp allows user to submit items they've lost and may not be able to retrieve themselves. Users can upload an item name, detailed description, and reward amount. The item is then placed on the homepage to make other users aware of the item."
+    }
+]
